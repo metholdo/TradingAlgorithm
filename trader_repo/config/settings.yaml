@@ -1,0 +1,15 @@
+
+symbols: ["AAPL", "MSFT", "SPY"]
+timeframe: "1d"
+data_source: "yahoo"
+start: "2015-01-01"
+costs:
+  fees_bps: 10
+  slippage_bps: 5
+risk:
+  target_vol_annual: 0.15
+  kelly_fraction: 0.0
+broker: "alpaca"
+cache_path: "data/raw"
+reports_path: "reports"
+seed: 42
